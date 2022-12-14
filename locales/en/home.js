@@ -4,7 +4,8 @@ export default {
 	"top-description": 'Control your multiple <span class="st">social media</span> accounts from one central place.',
 	"buttons": {
 		"register": "Register",
-		"login": "Login"
+		"login": "Login",
+		"panel": "Dashboard"
 	},
 	"supported-platforms": "Supported Platforms",
 	"slogans": [

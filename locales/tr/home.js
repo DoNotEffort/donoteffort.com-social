@@ -4,7 +4,8 @@ export default {
 	"top-description": '<span class="st">Sosyal medya</span> hesaplarınızı tek bir yerden kontrol edin.',
 	"buttons":{
 		"register": "Kayıt Ol",
-		"login": "Giriş Yap"
+		"login": "Giriş Yap",
+		"panel": "Panel"
 	},
 	"supported-platforms": "Desteklenen Platformlar",
 	"slogans":[

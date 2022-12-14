@@ -61,7 +61,8 @@ export default {
     '@nuxtjs/gtm',
     '@nuxtjs/yandex-metrika',
     '@nuxtjs/sitemap',
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'cookie-universal-nuxt'
   ],
 
 
