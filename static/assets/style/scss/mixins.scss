@@ -1,0 +1,8 @@
+@mixin center-item($mobile:"column") {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+	@media only screen and (max-width: 768px) {
+			flex-direction: #{$mobile};
+	}
+}

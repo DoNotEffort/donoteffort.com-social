@@ -1,0 +1,9 @@
+$mainColors: (
+  "dark": #1E1E1E,
+  "light": #ffffff,
+);
+
+$dark: map-get($mainColors, "dark");
+$light: map-get($mainColors, "light");
+
+$sideColor: #9271E7;
