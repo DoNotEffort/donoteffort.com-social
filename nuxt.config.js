@@ -106,7 +106,7 @@ export default {
   },
   router: {
     middleware: 'middleware',
-    base: '/'
+    base: '/social'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
