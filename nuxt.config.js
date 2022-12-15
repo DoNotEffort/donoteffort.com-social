@@ -98,7 +98,7 @@ export default {
   },
 
   sitemap: {
-    hostname: "https://world2space.github.io",
+    hostname: "https://donoteffort.com",
     defaults: {
       changefreq: 'daily',
       priority: 1,
