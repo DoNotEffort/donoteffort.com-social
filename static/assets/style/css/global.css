@@ -9,7 +9,7 @@ body{
   position: absolute;
   width: 3rem;
   z-index: -1;
-	opacity: .05;
+	opacity: .1;
 }
 
 h1{
