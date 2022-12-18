@@ -27,7 +27,7 @@ module.exports= {
 	detectBrowserLanguage: {
 		useCookie: true,
 		cookieKey: 'i18n_redirected',
-		alwaysRedirect: false
+		alwaysRedirect: true
 	},
 	vueI18n: {
 		fallbackLocale: defaultLocale

@@ -47,8 +47,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/svg',
-    '@/modules/sitemapRouteGenerator'
+    '@nuxtjs/svg'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -103,7 +102,8 @@ export default {
       changefreq: 'daily',
       priority: 1,
       lastmod: new Date()
-    }
+    },
+    i18n: true,
   },
   router: {
     middleware: 'middleware',
