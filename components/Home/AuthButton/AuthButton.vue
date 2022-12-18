@@ -20,6 +20,7 @@ export default {
 	color:white;
 	text-decoration: none;
 	margin: 0 5px;
+	font-weight: bold;
 }
 
 </style>

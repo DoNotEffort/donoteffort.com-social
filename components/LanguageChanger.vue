@@ -52,5 +52,6 @@ span:not(:last-of-type)::after {
 @import "@/static/assets/style/scss/colors.scss";
 .selected {
   color: $sideColor;
+  font-weight: 800;
 }
 </style>
