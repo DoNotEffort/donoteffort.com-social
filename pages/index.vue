@@ -7,6 +7,22 @@
     <home-app-footer/>
   </div>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: this.$t("home.head.title"),
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.$t("home.head.description"),
+        },
+      ],
+    };
+  },
+}
+</script>
 <style>
 header {
   display: flex;

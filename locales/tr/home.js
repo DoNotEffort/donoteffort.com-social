@@ -1,4 +1,8 @@
 export default {
+	"head":{
+		"title": "Sosyal Medya Yönetimi",
+		"description": "\"Do Not Effort\", sosyal medya hesaplarınızı tek bir yerden kontrol edebileceğiniz bir sosyal medya yönetim platformudur."
+	},
 	"description": "Sadece yeni yapılacak olan web sitenize odaklanın tekrarlı işlerden kurtulun ve hızlıca geliştirin",
 	"top-title":  "Bırakın Botlar Sizin İçin Çalışsın",
 	"top-description": '<span class="st">Sosyal medya</span> hesaplarınızı tek bir yerden kontrol edin.',

@@ -1,4 +1,8 @@
 export default {
+	"head":{
+		"title": "Social Media Management",
+		"description": "Do Not Effort is a social media management platform that allows you to manage your social media accounts from one central place."
+	},
 	"description": "Best Nuxt development environment to focus only on new website development",
 	"top-title": "Let The Bots Work For You",
 	"top-description": 'Control your multiple <span class="st">social media</span> accounts from one central place.',
