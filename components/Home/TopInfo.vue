@@ -19,6 +19,13 @@ export default {
   },
 }
 </script>
+<style>
+
+.description span {
+  display: inline-block;
+  padding: 0 15px !important;
+}
+</style>
 <style scoped>
 .info {
   display: flex;
@@ -50,6 +57,7 @@ div > p {
 .description {
   line-height: 3rem;
 }
+
 
 @media only screen and (max-width: 768px) {
   .info .logo-container {
