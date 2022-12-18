@@ -16,7 +16,6 @@
     "e2e:ci": "cypress run --record --key 3fa75e84-96d8-4e02-9a1b-ce41f133a795"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/gtm": "^2.4.0",
@@ -24,7 +23,6 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/svg": "^0.4.0",
-    "@nuxtjs/yandex-metrika": "^1.4.0",
     "cookie-universal-nuxt": "^2.2.2",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",

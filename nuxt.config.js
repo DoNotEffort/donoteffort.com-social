@@ -56,7 +56,6 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/i18n',
     '@nuxtjs/gtm',
-    '@nuxtjs/yandex-metrika',
     '@nuxtjs/sitemap',
     '@nuxtjs/dotenv',
     'cookie-universal-nuxt'
@@ -78,14 +77,6 @@ export default {
 
   googleAnalytics: {
     id: process.env.GOOGLE_ANALYTICS_ID
-  },
-
-  yandexMetrika: {
-    id: process.env.YANDEX_METRICA_ID,
-    webvisor: true,
-    clickmap: true,
-    trackLinks: true,
-    accurateTrackBounce: true
   },
 
   sitemap: {
