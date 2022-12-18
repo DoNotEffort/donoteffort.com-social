@@ -15,7 +15,7 @@ export default {
 	"slogans": [
 		'Hand over your work to <span class="nd">DoNot</span>',
 		'and',
-		'make your year <span class="st">13 months</span>.'
+		'make your year <span class="st no-style">13 months</span>.'
 	],
 	"footer": {
 		"agreement": {

@@ -4,5 +4,6 @@
 <style scoped>
 a{
 	border: 1px solid #ffffff4f;
+	color: white;
 }
 </style>

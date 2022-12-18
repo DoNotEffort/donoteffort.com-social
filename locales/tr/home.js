@@ -15,7 +15,7 @@ export default {
 	"slogans":[
 		'İşlerinizi <span class="nd">DoNot</span>\'ın kontrolüne bırakın',
 		've',
-		'Yılınızı <span class="st">13 ay</span> yapın.'
+		'Yılınızı <span class="st no-style">13 ay</span> yapın.'
 	],
 	"footer":{
 		"agreement":{

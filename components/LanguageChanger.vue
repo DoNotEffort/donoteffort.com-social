@@ -1,5 +1,5 @@
 <template>
-  <div data-cy="language-changer">
+  <div data-cy="language-changer" class="st">
     <span
       v-for="language in languages"
       :key="language"
@@ -29,7 +29,7 @@ export default {
 </script>
 <style scoped>
 div {
-  color: white;
+  color: #ecc39a;
 }
 
 span {
