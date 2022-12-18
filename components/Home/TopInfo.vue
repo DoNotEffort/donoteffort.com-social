@@ -7,8 +7,8 @@
       <logo-text />
       <home-top-logo />
     </div>
-    <span>{{$t("home.top-title")}}</span>
-		<p v-html="$t('home.top-description')"></p>
+    <span>{{ $t('home.top-title') }}</span>
+    <p class="description" v-html="$t('home.top-description')"></p>
   </div>
 </template>
 <script>
@@ -27,7 +27,7 @@ export default {
 
 .info .logo-container {
   display: flex;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .info svg {
@@ -43,15 +43,19 @@ div > span {
 }
 
 div > p {
-	margin-top: 2rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
+.description {
+  line-height: 3rem;
+}
+
 @media only screen and (max-width: 768px) {
-.info .logo-container{
-  flex-direction: column-reverse;
+  .info .logo-container {
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-}
+  }
 }
 </style>
