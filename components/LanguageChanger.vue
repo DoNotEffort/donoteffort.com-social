@@ -1,5 +1,5 @@
 <template>
-  <div data-cy="language-changer" class="st">
+  <div data-cy="language-changer">
     <span
       v-for="language in languages"
       :key="language"
@@ -29,7 +29,7 @@ export default {
 </script>
 <style scoped>
 div {
-  color: #ecc39a;
+  color: white;
 }
 
 span {
@@ -52,6 +52,5 @@ span:not(:last-of-type)::after {
 @import "@/static/assets/style/scss/colors.scss";
 .selected {
   color: $sideColor;
-  font-weight: 800;
 }
 </style>
