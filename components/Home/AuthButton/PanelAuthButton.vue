@@ -1,5 +1,5 @@
 <template>
-	<home-auth-button class="bg-st" url="dashboard">{{$t("home.buttons.panel")}}</home-auth-button>
+	<home-auth-button class="bg-st" url="https://social.donoteffort.com">{{ $t("home.buttons.panel") }}</home-auth-button>
 </template>
 <style scoped>
 a{
